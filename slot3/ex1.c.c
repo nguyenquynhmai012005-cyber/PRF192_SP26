@@ -26,8 +26,8 @@ int main() {
     printf("%d * %d = %.2f\n", a, b, kq);
 
     // Phép chia (ra số thực)
-    kq_chia = (float)a / b;
-    printf("%d / %d = %.2f\n", a, b, kq_chia);
+    kq = (float)a / b;
+    printf("%d / %d = %.2f", a, b, kq);
 
     return 0;
 }

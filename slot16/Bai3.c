@@ -9,7 +9,6 @@ void swap3(int *n1, int *n2, int *n3) {
 
 int main() {
     int a, b, c;
-
     printf("Nh?p a, b, c: ");
     scanf("%d %d %d", &a, &b, &c);
 

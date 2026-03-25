@@ -23,7 +23,6 @@ int main() {
         scanf(" %[^\n]", b[i].name);
         scanf("%f", &b[i].price);
     }
-
     // Fixed Do not edit anything here.
     printf("\nOUTPUT:\n");
 

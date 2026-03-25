@@ -7,26 +7,22 @@
 
 int main() {
   system("cls");
+  printf("INPUT:\n");
   //INPUT - @STUDENT:ADD YOUR CODE FOR INPUT HERE:
-  printf("\nINPUT:\n");
-  float a, b;
-    scanf("%f", &a);
-    scanf("%f", &b);
-  
-  
+ int n;
+    scanf("%d", &n);
+
   // Fixed Do not edit anything here.
   printf("\nOUTPUT:\n");
   //@STUDENT: WRITE YOUR OUTPUT HERE:
-  if(a == 0){
-        printf("Error: Division by zero");
+   if(n < 0){
+        printf("-1");
     } else {
-        float x = cbrt(-b/a);
-        printf("%.3f", x);
+        double result = sqrt(n);
+        printf("%.3lf", result);
     }
-  printf("%d%d");
-  float a,b;
-  scanf("%f,&a");
-  scanf("%f,&b");
-  
- printf("%f")
- return 0;
+  //--FIXED PART - DO NOT EDIT ANY THINGS HERE
+  printf("\n");
+  system ("pause");
+  return(0);
+}
